@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid with Responsive</title>
+</head>
+<style>
+   * {
+    margin: 0;
+    padding: 0;
+   }
+
+    .container {
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+
+    .one {
+        border: solid 2px rgb(0, 0, 0);
+        height: 145px;
+        
+    }
+
+    .onee {
+        grid-column: span 4;
+        /* background-image: url();
+        /* background-repeat: no-repeat;
+        background-size: cover; */
+    }
+
+    .seven {
+        grid-row: span 4;
+        height: auto;
+    }
+
+    .two {
+        grid-column: span 2;
+    }
+
+    .one4 {
+        grid-column: span 4;
+        width: 120%;
+    }
+
+    .one6 {
+        grid-column: span 4;
+        /* width: 100%; */
+    }
+    .one7 {
+        grid-column: span 2;
+    }
+
+    .one8 {
+        grid-column: span 2;
+        width: 100%;
+        }
+
+    .one9 {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+    .one10 {
+        grid-column: span 2;
+        width: 100%;
+        }
+
+        .one111 {
+            margin: 20%;
+            right: 100%;
+
+        }
+</style>
+<body>
+    <DIV class="container">
+        <div class="one onee">
+            <img src="1.jpg" alt="1" height="145px" width="100%">
+        </div>
+        <div class="one two">
+            <img src="2.jpg" alt="2" height="145px" width="100%">
+        </div>
+        <div class="one111"> <b> SHUTTER </b> 
+            <a href="#"> HOME </a> <br>
+            <a href="#"> PHOTO </a> <br>
+            <a href="#"> BIO </a> <br>
+            <a href="#"> BLOG </a> <br>
+            <a href="#"> CONTACT </a> <br>
+        </div>
+
+        <div class="one">
+            <img src="3.jpg" alt="3" height="145px" width="145px">
+        </div>
+        <div class="one4">
+            <img src="4.jpg" alt="4" height="145px" width="690px">
+        </div>
+        <div class="one5">
+            <img src="5.jpg" alt="5" height="145px" width="450px">
+        </div>
+        <div class="one6">
+            <img class="one6" src="6.jpg" alt="6" height="145px" width="690px">
+        </div>
+        <div class="one7">
+            <img src="7.jpg" alt="7" height="145px" width="670x">
+        </div>
+        <div class="one8">
+            <img src="8.jpg" alt="8" height="145px" width="100%">
+        </div>
+        <div class="one9">
+            <img src="9.jpg" alt="9" height="145px" width="100%">
+        </div>
+        <div class="one10">
+            <img src="10.jfif" alt="10" height="145px" width="100%">
+
+        </div>
+    </DIV>
+</body>
+</html>
